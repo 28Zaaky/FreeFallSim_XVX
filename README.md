@@ -1,10 +1,10 @@
-# 🪂 Simulateur de Chute Libre avec Frottements
+# Simulateur de Chute Libre avec Frottements
 
 Un simulateur interactif permettant d'étudier la chute verticale d’un objet sous l'effet de la gravité 🌍, avec ou sans force de frottement de l’air 💨. Le tout est visualisé via des graphiques, animations, et une interface conviviale en Python 🐍.
 
 ---
 
-## 🎯 Objectifs du projet
+## Objectifs du projet
 
 Ce projet vise à :
 
@@ -16,7 +16,7 @@ Ce projet vise à :
 
 ---
 
-## ⚙️ Fonctionnalités
+## Fonctionnalités
 
 - **Interface utilisateur (Tkinter)** : entrez les paramètres (masse, frottement, hauteur…)
 - **Simulation avec et sans frottement**
@@ -27,16 +27,16 @@ Ce projet vise à :
 
 ---
 
-## 🧪 Contexte scientifique
+## Contexte scientifique
 
 Lorsqu’un objet tombe :
 
-### 📌 Sans frottement :
+### Sans frottement :
 - L’objet est uniquement soumis à la gravité (`a = g = 9.81 m/s²`).
 - La vitesse augmente indéfiniment (`v = g·t`).
 - Le mouvement est idéal, sans résistance de l’air.
 
-### 📌 Avec frottement :
+### Avec frottement :
 - On considère une force de frottement proportionnelle à la vitesse : `F_f = -k·v`
 - L'accélération devient `a = g - (k/m)·v`
 - La vitesse finit par atteindre une **vitesse limite** : `v_lim = (m·g)/k`
@@ -46,7 +46,7 @@ La résolution numérique est effectuée avec la **méthode d’Euler**, une app
 
 ---
 
-## 🖥️ Technologies utilisées
+## Technologies utilisées
 
 - `Python 3.x`
 - `Tkinter` – interface graphique
